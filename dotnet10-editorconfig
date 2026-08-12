@@ -97,22 +97,23 @@ dotnet_diagnostic.CA1418.severity = error
 dotnet_diagnostic.CA1419.severity = error
 dotnet_diagnostic.CA1420.severity = error
 dotnet_diagnostic.CA1421.severity = error
-dotnet_diagnostic.CA1422.severity = error
+dotnet_diagnostic.CA1422.severity = warning # Only suppress in certain cases
 
 ### Maintainability rules
-dotnet_diagnostic.CA1501.severity = error
-dotnet_diagnostic.CA1502.severity = error
-dotnet_diagnostic.CA1505.severity = error
-dotnet_diagnostic.CA1506.severity = error
+dotnet_diagnostic.CA1501.severity = warning # Debatable
+dotnet_diagnostic.CA1502.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA1505.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA1506.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1507.severity = error
-dotnet_diagnostic.CA1508.severity = error
+dotnet_diagnostic.CA1508.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1509.severity = error
-dotnet_diagnostic.CA1510.severity = error
-dotnet_diagnostic.CA1511.severity = error
-dotnet_diagnostic.CA1512.severity = error
-dotnet_diagnostic.CA1513.severity = error
+dotnet_diagnostic.CA1510.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA1511.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA1512.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA1513.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1514.severity = error
 dotnet_diagnostic.CA1515.severity = error
+dotnet_diagnostic.CA1516.severity = error
 
 ### Naming rules
 dotnet_diagnostic.CA1700.severity = error
