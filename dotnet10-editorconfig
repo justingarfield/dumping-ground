@@ -208,19 +208,17 @@ dotnet_diagnostic.IL3002.severity = error
 dotnet_diagnostic.IL3003.severity = error
 dotnet_diagnostic.IL3005.severity = error
 
-#########################################################################
-
 ### Reliability rules
 dotnet_diagnostic.CA2000.severity = error
-dotnet_diagnostic.CA2002.severity = error
-dotnet_diagnostic.CA2007.severity = error
-dotnet_diagnostic.CA2008.severity = error
+dotnet_diagnostic.CA2002.severity = warning # Only suppress in certain cases (maybe error?)
+dotnet_diagnostic.CA2007.severity = warning # Only suppress in certain cases (mainly for libraries)
+dotnet_diagnostic.CA2008.severity = warning # Only suppress in certain cases (mainly for libraries)
 dotnet_diagnostic.CA2009.severity = error
 dotnet_diagnostic.CA2011.severity = error
 dotnet_diagnostic.CA2012.severity = error
 dotnet_diagnostic.CA2013.severity = error
 dotnet_diagnostic.CA2014.severity = error
-dotnet_diagnostic.CA2015.severity = error
+dotnet_diagnostic.CA2015.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA2016.severity = error
 dotnet_diagnostic.CA2017.severity = error
 dotnet_diagnostic.CA2018.severity = error
@@ -228,7 +226,12 @@ dotnet_diagnostic.CA2019.severity = error
 dotnet_diagnostic.CA2020.severity = error
 dotnet_diagnostic.CA2021.severity = error
 dotnet_diagnostic.CA2022.severity = error
+dotnet_diagnostic.CA2023.severity = error
 dotnet_diagnostic.CA2024.severity = error
+dotnet_diagnostic.CA2025.severity = error
+dotnet_diagnostic.CA2026.severity = error
+
+#########################################################################
 
 ### Security rules
 dotnet_diagnostic.CA2100.severity = error
