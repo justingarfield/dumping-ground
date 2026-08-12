@@ -201,14 +201,14 @@ dotnet_diagnostic.CA1874.severity = error
 dotnet_diagnostic.CA1875.severity = error
 dotnet_diagnostic.CA1877.severity = error
 
-#########################################################################
-
 ### SingleFile rules
 dotnet_diagnostic.IL3000.severity = error
 dotnet_diagnostic.IL3001.severity = error
 dotnet_diagnostic.IL3002.severity = error
 dotnet_diagnostic.IL3003.severity = error
 dotnet_diagnostic.IL3005.severity = error
+
+#########################################################################
 
 ### Reliability rules
 dotnet_diagnostic.CA2000.severity = error
