@@ -119,19 +119,21 @@ dotnet_diagnostic.CA1516.severity = error
 dotnet_diagnostic.CA1700.severity = error
 dotnet_diagnostic.CA1707.severity = error
 dotnet_diagnostic.CA1708.severity = error
-dotnet_diagnostic.CA1710.severity = error
+dotnet_diagnostic.CA1710.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1711.severity = error
 dotnet_diagnostic.CA1712.severity = error
 dotnet_diagnostic.CA1713.severity = error
-dotnet_diagnostic.CA1714.severity = error
+dotnet_diagnostic.CA1714.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1715.severity = error
 dotnet_diagnostic.CA1716.severity = error
-dotnet_diagnostic.CA1717.severity = error
-dotnet_diagnostic.CA1720.severity = error
+dotnet_diagnostic.CA1717.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA1720.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1721.severity = error
 dotnet_diagnostic.CA1724.severity = error
 dotnet_diagnostic.CA1725.severity = error
 dotnet_diagnostic.CA1727.severity = error
+
+#########################################################################
 
 ### Performance rules
 dotnet_diagnostic.CA1802.severity = error
