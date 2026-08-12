@@ -133,8 +133,6 @@ dotnet_diagnostic.CA1724.severity = error
 dotnet_diagnostic.CA1725.severity = error
 dotnet_diagnostic.CA1727.severity = error
 
-#########################################################################
-
 ### Performance rules
 dotnet_diagnostic.CA1802.severity = error
 dotnet_diagnostic.CA1805.severity = error
@@ -156,9 +154,9 @@ dotnet_diagnostic.CA1827.severity = error
 dotnet_diagnostic.CA1828.severity = error
 dotnet_diagnostic.CA1829.severity = error
 dotnet_diagnostic.CA1830.severity = error
-dotnet_diagnostic.CA1831.severity = error
-dotnet_diagnostic.CA1832.severity = error
-dotnet_diagnostic.CA1833.severity = error
+dotnet_diagnostic.CA1831.severity = warning # Only suppress in certain cases (maybe error?)
+dotnet_diagnostic.CA1832.severity = warning # Only suppress in certain cases (maybe error?)
+dotnet_diagnostic.CA1833.severity = warning # Only suppress in certain cases (maybe error?)
 dotnet_diagnostic.CA1834.severity = error
 dotnet_diagnostic.CA1835.severity = error
 dotnet_diagnostic.CA1836.severity = error
@@ -169,25 +167,25 @@ dotnet_diagnostic.CA1840.severity = error
 dotnet_diagnostic.CA1841.severity = error
 dotnet_diagnostic.CA1842.severity = error
 dotnet_diagnostic.CA1843.severity = error
-dotnet_diagnostic.CA1844.severity = error
+dotnet_diagnostic.CA1844.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1845.severity = error
 dotnet_diagnostic.CA1846.severity = error
 dotnet_diagnostic.CA1847.severity = error
 dotnet_diagnostic.CA1848.severity = error
-dotnet_diagnostic.CA1849.severity = error
+dotnet_diagnostic.CA1849.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1850.severity = error
-dotnet_diagnostic.CA1851.severity = error
+dotnet_diagnostic.CA1851.severity = warning # Only suppress in certain cases (maybe error?)
 dotnet_diagnostic.CA1852.severity = error
 dotnet_diagnostic.CA1853.severity = error
-dotnet_diagnostic.CA1854.severity = error
+dotnet_diagnostic.CA1854.severity = warning # Only suppress in certain cases (maybe error?)
 dotnet_diagnostic.CA1855.severity = error
 dotnet_diagnostic.CA1856.severity = error
 dotnet_diagnostic.CA1857.severity = error
 dotnet_diagnostic.CA1858.severity = error
 dotnet_diagnostic.CA1859.severity = error
 dotnet_diagnostic.CA1860.severity = error
-dotnet_diagnostic.CA1861.severity = error
-dotnet_diagnostic.CA1862.severity = error
+dotnet_diagnostic.CA1861.severity = warning # Only suppress in certain cases (maybe error?)
+dotnet_diagnostic.CA1862.severity = warning # Only suppress in certain cases (EF Core)
 dotnet_diagnostic.CA1863.severity = error
 dotnet_diagnostic.CA1864.severity = error
 dotnet_diagnostic.CA1865.severity = error
@@ -198,6 +196,12 @@ dotnet_diagnostic.CA1869.severity = error
 dotnet_diagnostic.CA1870.severity = error
 dotnet_diagnostic.CA1871.severity = error
 dotnet_diagnostic.CA1872.severity = error
+dotnet_diagnostic.CA1873.severity = error
+dotnet_diagnostic.CA1874.severity = error
+dotnet_diagnostic.CA1875.severity = error
+dotnet_diagnostic.CA1877.severity = error
+
+#########################################################################
 
 ### SingleFile rules
 dotnet_diagnostic.IL3000.severity = error
