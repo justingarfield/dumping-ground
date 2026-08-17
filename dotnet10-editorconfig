@@ -231,8 +231,6 @@ dotnet_diagnostic.CA2024.severity = error
 dotnet_diagnostic.CA2025.severity = error
 dotnet_diagnostic.CA2026.severity = error
 
-#########################################################################
-
 ### Security rules
 dotnet_diagnostic.CA2100.severity = error
 dotnet_diagnostic.CA2109.severity = error
@@ -242,7 +240,6 @@ dotnet_diagnostic.CA2300.severity = error
 dotnet_diagnostic.CA2301.severity = error
 dotnet_diagnostic.CA2302.severity = error
 dotnet_diagnostic.CA2305.severity = error
-dotnet_diagnostic.CA2306.severity = error
 dotnet_diagnostic.CA2310.severity = error
 dotnet_diagnostic.CA2311.severity = error
 dotnet_diagnostic.CA2312.severity = error
@@ -264,6 +261,9 @@ dotnet_diagnostic.CA2356.severity = error
 dotnet_diagnostic.CA2361.severity = error
 dotnet_diagnostic.CA2362.severity = error
 dotnet_diagnostic.CA3001.severity = error
+
+#########################################################################
+
 dotnet_diagnostic.CA3002.severity = error
 dotnet_diagnostic.CA3003.severity = error
 dotnet_diagnostic.CA3004.severity = error
