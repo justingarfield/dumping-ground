@@ -273,9 +273,6 @@ dotnet_diagnostic.CA3010.severity = error
 dotnet_diagnostic.CA3011.severity = error
 dotnet_diagnostic.CA3012.severity = error
 dotnet_diagnostic.CA3061.severity = error
-
-#########################################################################
-
 dotnet_diagnostic.CA3075.severity = error
 dotnet_diagnostic.CA3076.severity = error
 dotnet_diagnostic.CA3077.severity = error
@@ -283,16 +280,16 @@ dotnet_diagnostic.CA3147.severity = error
 dotnet_diagnostic.CA5350.severity = error
 dotnet_diagnostic.CA5351.severity = error
 dotnet_diagnostic.CA5358.severity = error
-dotnet_diagnostic.CA5359.severity = error
+dotnet_diagnostic.CA5359.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA5360.severity = error
 dotnet_diagnostic.CA5361.severity = error
 dotnet_diagnostic.CA5362.severity = error
 dotnet_diagnostic.CA5363.severity = error
 dotnet_diagnostic.CA5364.severity = error
-dotnet_diagnostic.CA5365.severity = error
+dotnet_diagnostic.CA5365.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA5366.severity = error
 dotnet_diagnostic.CA5367.severity = error
-dotnet_diagnostic.CA5368.severity = error
+dotnet_diagnostic.CA5368.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA5369.severity = error
 dotnet_diagnostic.CA5370.severity = error
 dotnet_diagnostic.CA5371.severity = error
@@ -306,14 +303,17 @@ dotnet_diagnostic.CA5378.severity = error
 dotnet_diagnostic.CA5379.severity = error
 dotnet_diagnostic.CA5380.severity = error
 dotnet_diagnostic.CA5381.severity = error
-dotnet_diagnostic.CA5382.severity = error
-dotnet_diagnostic.CA5383.severity = error
+dotnet_diagnostic.CA5382.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA5383.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA5384.severity = error
 dotnet_diagnostic.CA5385.severity = error
 dotnet_diagnostic.CA5386.severity = error
 dotnet_diagnostic.CA5387.severity = error
 dotnet_diagnostic.CA5388.severity = error
 dotnet_diagnostic.CA5389.severity = error
+
+#########################################################################
+
 dotnet_diagnostic.CA5390.severity = error
 dotnet_diagnostic.CA5391.severity = error
 dotnet_diagnostic.CA5392.severity = error
