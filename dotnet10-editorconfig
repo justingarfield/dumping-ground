@@ -311,13 +311,10 @@ dotnet_diagnostic.CA5386.severity = error
 dotnet_diagnostic.CA5387.severity = error
 dotnet_diagnostic.CA5388.severity = error
 dotnet_diagnostic.CA5389.severity = error
-
-#########################################################################
-
 dotnet_diagnostic.CA5390.severity = error
 dotnet_diagnostic.CA5391.severity = error
-dotnet_diagnostic.CA5392.severity = error
-dotnet_diagnostic.CA5393.severity = error
+dotnet_diagnostic.CA5392.severity = warning # Only suppress in certain cases (maybe error?)
+dotnet_diagnostic.CA5393.severity = warning # Only suppress in certain cases (maybe error?)
 dotnet_diagnostic.CA5394.severity = error
 dotnet_diagnostic.CA5395.severity = error
 dotnet_diagnostic.CA5396.severity = error
@@ -330,6 +327,8 @@ dotnet_diagnostic.CA5402.severity = error
 dotnet_diagnostic.CA5403.severity = error
 dotnet_diagnostic.CA5404.severity = error
 dotnet_diagnostic.CA5405.severity = error
+
+#########################################################################
 
 ### Usage rules
 dotnet_diagnostic.CA1801.severity = error
