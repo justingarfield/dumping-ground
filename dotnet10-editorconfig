@@ -328,25 +328,26 @@ dotnet_diagnostic.CA5403.severity = error
 dotnet_diagnostic.CA5404.severity = error
 dotnet_diagnostic.CA5405.severity = error
 
-#########################################################################
-
 ### Usage rules
-dotnet_diagnostic.CA1801.severity = error
+dotnet_diagnostic.CA1801.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA1816.severity = error
 dotnet_diagnostic.CA2200.severity = error
 dotnet_diagnostic.CA2201.severity = error
 dotnet_diagnostic.CA2207.severity = error
 dotnet_diagnostic.CA2208.severity = error
 dotnet_diagnostic.CA2211.severity = error
-dotnet_diagnostic.CA2213.severity = error
+dotnet_diagnostic.CA2213.severity = warning # Only suppress in certain cases (maybe error?)
 dotnet_diagnostic.CA2214.severity = error
-dotnet_diagnostic.CA2215.severity = error
+dotnet_diagnostic.CA2215.severity = warning # Only suppress in certain cases (maybe error?)
 dotnet_diagnostic.CA2216.severity = error
 dotnet_diagnostic.CA2217.severity = error
 dotnet_diagnostic.CA2218.severity = error
 dotnet_diagnostic.CA2219.severity = error
-dotnet_diagnostic.CA2224.severity = error
-dotnet_diagnostic.CA2225.severity = error
+dotnet_diagnostic.CA2224.severity = warning # Only suppress in certain cases (maybe error?)
+dotnet_diagnostic.CA2225.severity = warning # Only suppress in certain cases (maybe error?)
+
+#########################################################################
+
 dotnet_diagnostic.CA2226.severity = error
 dotnet_diagnostic.CA2227.severity = error
 dotnet_diagnostic.CA2229.severity = error
