@@ -379,8 +379,6 @@ dotnet_diagnostic.CA2264.severity = error
 dotnet_diagnostic.CA2265.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA2266.severity = warning # Only suppress in certain cases (maybe error?)
 
-#########################################################################
-
 ## Code style rules
 
 ### Language and unnecessary code rules
@@ -395,6 +393,9 @@ dotnet_diagnostic.IDE0009.severity = error
 dotnet_diagnostic.IDE0010.severity = error
 dotnet_diagnostic.IDE0011.severity = error
 dotnet_diagnostic.IDE0016.severity = error
+
+#########################################################################
+
 dotnet_diagnostic.IDE0017.severity = error
 dotnet_diagnostic.IDE0018.severity = error
 dotnet_diagnostic.IDE0019.severity = error
