@@ -355,31 +355,31 @@ dotnet_diagnostic.CA2237.severity = error
 dotnet_diagnostic.CA2241.severity = error
 dotnet_diagnostic.CA2242.severity = error
 dotnet_diagnostic.CA2243.severity = warning # Only suppress in certain cases
-
-#########################################################################
-
 dotnet_diagnostic.CA2244.severity = error
 dotnet_diagnostic.CA2245.severity = error
 dotnet_diagnostic.CA2246.severity = error
 dotnet_diagnostic.CA2247.severity = error
 dotnet_diagnostic.CA2248.severity = error
 dotnet_diagnostic.CA2249.severity = error
-dotnet_diagnostic.CA2250.severity = error
-dotnet_diagnostic.CA2251.severity = error
+dotnet_diagnostic.CA2250.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA2251.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA2252.severity = error
 dotnet_diagnostic.CA2253.severity = error
-dotnet_diagnostic.CA2254.severity = error
-dotnet_diagnostic.CA2255.severity = error
+dotnet_diagnostic.CA2254.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA2255.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA2256.severity = error
 dotnet_diagnostic.CA2257.severity = error
 dotnet_diagnostic.CA2258.severity = error
 dotnet_diagnostic.CA2259.severity = error
 dotnet_diagnostic.CA2260.severity = error
 dotnet_diagnostic.CA2261.severity = error
-dotnet_diagnostic.CA2262.severity = error
+dotnet_diagnostic.CA2262.severity = warning # Only suppress in certain cases
 dotnet_diagnostic.CA2263.severity = error
 dotnet_diagnostic.CA2264.severity = error
-dotnet_diagnostic.CA2265.severity = error
+dotnet_diagnostic.CA2265.severity = warning # Only suppress in certain cases
+dotnet_diagnostic.CA2266.severity = warning # Only suppress in certain cases (maybe error?)
+
+#########################################################################
 
 ## Code style rules
 
