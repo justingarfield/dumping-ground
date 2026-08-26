@@ -477,72 +477,72 @@ csharp_style_pattern_matching_over_is_with_cast_check = true:error
 # IDE0039
 csharp_style_prefer_local_over_anonymous_function = true:error
 
-#########################################################################
-
 # IDE0040
-dotnet_style_require_accessibility_modifiers = 
+dotnet_style_require_accessibility_modifiers = always:error
 
 # IDE0041
-dotnet_style_prefer_is_null_check_over_reference_equality_method = 
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:error
 
 # IDE0042
-csharp_style_deconstructed_variable_declaration = 
+csharp_style_deconstructed_variable_declaration = true:error
 
 dotnet_diagnostic.IDE0043.severity = error
 
 # IDE0044
-dotnet_style_readonly_field = 
+dotnet_style_readonly_field = true:error
 
 # IDE0045
-dotnet_style_prefer_conditional_expression_over_assignment = 
+dotnet_style_prefer_conditional_expression_over_assignment = true:error
 
 # IDE0046
-dotnet_style_prefer_conditional_expression_over_return = 
+dotnet_style_prefer_conditional_expression_over_return = true:error
 
 # IDE0047
 # IDE0048
-dotnet_style_parentheses_in_arithmetic_binary_operators = 
-dotnet_style_parentheses_in_relational_binary_operators = 
-dotnet_style_parentheses_in_other_binary_operators = 
-dotnet_style_parentheses_in_other_operators = 
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:error
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:error
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:error
+dotnet_style_parentheses_in_other_operators = always_for_clarity:error
 
 # IDE0049
-dotnet_style_predefined_type_for_locals_parameters_members = 
-dotnet_style_predefined_type_for_member_access = 
+dotnet_style_predefined_type_for_locals_parameters_members = true:error
+dotnet_style_predefined_type_for_member_access = true:error
 
 dotnet_diagnostic.IDE0050.severity = error
 dotnet_diagnostic.IDE0051.severity = error
 dotnet_diagnostic.IDE0052.severity = error
 
 # IDE0053
-csharp_style_expression_bodied_lambdas = 
+csharp_style_expression_bodied_lambdas = true:error
 
 # IDE0054
 # IDE0074
-dotnet_style_prefer_compound_assignment = 
+dotnet_style_prefer_compound_assignment = true:error
 
 # IDE0056
-csharp_style_prefer_index_operator = 
+csharp_style_prefer_index_operator = true:error
 
 # IDE0057
-csharp_style_prefer_range_operator = 
+csharp_style_prefer_range_operator = true:error
 
 # IDE0058
-csharp_style_unused_value_expression_statement_preference = 
-visual_basic_style_unused_value_expression_statement_preference = 
+csharp_style_unused_value_expression_statement_preference = discard_variable:error
+visual_basic_style_unused_value_expression_statement_preference = unused_local_variable:error
 
 # IDE0059
-csharp_style_unused_value_assignment_preference = 
-visual_basic_style_unused_value_assignment_preference = 
+csharp_style_unused_value_assignment_preference = discard_variable:error
+visual_basic_style_unused_value_assignment_preference = unused_local_variable:error
 
 # IDE0060
-dotnet_code_quality_unused_parameters = 
+dotnet_code_quality_unused_parameters = all:error
 
 # IDE0061
-csharp_style_expression_bodied_local_functions = 
+csharp_style_expression_bodied_local_functions = true:error
 
 # IDE0062
-csharp_prefer_static_local_function = 
+csharp_prefer_static_local_function = true:error
+
+#########################################################################
 
 dotnet_diagnostic.IDE0063.severity = error
 dotnet_diagnostic.IDE0064.severity = error
