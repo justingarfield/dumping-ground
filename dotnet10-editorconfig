@@ -479,27 +479,71 @@ csharp_style_prefer_local_over_anonymous_function = true:error
 
 #########################################################################
 
-dotnet_diagnostic.IDE0040.severity = error
-dotnet_diagnostic.IDE0041.severity = error
-dotnet_diagnostic.IDE0042.severity = error
-dotnet_diagnostic.IDE0044.severity = error
-dotnet_diagnostic.IDE0045.severity = error
-dotnet_diagnostic.IDE0046.severity = error
-dotnet_diagnostic.IDE0047.severity = error
-dotnet_diagnostic.IDE0048.severity = error
-dotnet_diagnostic.IDE0049.severity = error
+# IDE0040
+dotnet_style_require_accessibility_modifiers = 
+
+# IDE0041
+dotnet_style_prefer_is_null_check_over_reference_equality_method = 
+
+# IDE0042
+csharp_style_deconstructed_variable_declaration = 
+
+dotnet_diagnostic.IDE0043.severity = error
+
+# IDE0044
+dotnet_style_readonly_field = 
+
+# IDE0045
+dotnet_style_prefer_conditional_expression_over_assignment = 
+
+# IDE0046
+dotnet_style_prefer_conditional_expression_over_return = 
+
+# IDE0047
+# IDE0048
+dotnet_style_parentheses_in_arithmetic_binary_operators = 
+dotnet_style_parentheses_in_relational_binary_operators = 
+dotnet_style_parentheses_in_other_binary_operators = 
+dotnet_style_parentheses_in_other_operators = 
+
+# IDE0049
+dotnet_style_predefined_type_for_locals_parameters_members = 
+dotnet_style_predefined_type_for_member_access = 
+
 dotnet_diagnostic.IDE0050.severity = error
 dotnet_diagnostic.IDE0051.severity = error
 dotnet_diagnostic.IDE0052.severity = error
-dotnet_diagnostic.IDE0053.severity = error
-dotnet_diagnostic.IDE0054.severity = error
-dotnet_diagnostic.IDE0056.severity = error
-dotnet_diagnostic.IDE0057.severity = error
-dotnet_diagnostic.IDE0058.severity = error
-dotnet_diagnostic.IDE0059.severity = error
-dotnet_diagnostic.IDE0060.severity = error
-dotnet_diagnostic.IDE0061.severity = error
-dotnet_diagnostic.IDE0062.severity = error
+
+# IDE0053
+csharp_style_expression_bodied_lambdas = 
+
+# IDE0054
+# IDE0074
+dotnet_style_prefer_compound_assignment = 
+
+# IDE0056
+csharp_style_prefer_index_operator = 
+
+# IDE0057
+csharp_style_prefer_range_operator = 
+
+# IDE0058
+csharp_style_unused_value_expression_statement_preference = 
+visual_basic_style_unused_value_expression_statement_preference = 
+
+# IDE0059
+csharp_style_unused_value_assignment_preference = 
+visual_basic_style_unused_value_assignment_preference = 
+
+# IDE0060
+dotnet_code_quality_unused_parameters = 
+
+# IDE0061
+csharp_style_expression_bodied_local_functions = 
+
+# IDE0062
+csharp_prefer_static_local_function = 
+
 dotnet_diagnostic.IDE0063.severity = error
 dotnet_diagnostic.IDE0064.severity = error
 dotnet_diagnostic.IDE0065.severity = error
@@ -508,7 +552,6 @@ dotnet_diagnostic.IDE0070.severity = error
 dotnet_diagnostic.IDE0071.severity = error
 dotnet_diagnostic.IDE0072.severity = error
 dotnet_diagnostic.IDE0073.severity = error
-dotnet_diagnostic.IDE0074.severity = error
 dotnet_diagnostic.IDE0075.severity = error
 dotnet_diagnostic.IDE0078.severity = error
 dotnet_diagnostic.IDE0079.severity = error
