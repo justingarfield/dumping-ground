@@ -542,60 +542,58 @@ csharp_style_expression_bodied_local_functions = true:error
 # IDE0062
 csharp_prefer_static_local_function = true:error
 
-#########################################################################
-
 # IDE0063
-csharp_prefer_simple_using_statement = 
+csharp_prefer_simple_using_statement = true:error
 
 dotnet_diagnostic.IDE0064.severity = error
 
 # IDE0065
-csharp_using_directive_placement = 
+csharp_using_directive_placement = outside_namespace:error
 
 # IDE0066
-csharp_style_prefer_switch_expression = 
+csharp_style_prefer_switch_expression = true:error
 
 # IDE0070
-dotnet_prefer_system_hash_code = 
+dotnet_prefer_system_hash_code = true:error
 
 # IDE0071
-dotnet_style_prefer_simplified_interpolation = 
+dotnet_style_prefer_simplified_interpolation = true:error
 
 dotnet_diagnostic.IDE0072.severity = error
 
 # IDE0073
-file_header_template = 
-
-# IDE0074
-dotnet_style_prefer_compound_assignment = 
+# file_header_template = Copyright (c) SomeCorp. All rights reserved.\nLicensed under the xyz license.
+file_header_template = unset
 
 # IDE0075
-dotnet_style_prefer_simplified_boolean_expressions = 
+dotnet_style_prefer_simplified_boolean_expressions = true:error
 
 # IDE0078
-csharp_style_prefer_pattern_matching = 
+csharp_style_prefer_pattern_matching = true:error
 
 # IDE0079
-dotnet_remove_unnecessary_suppression_exclusions = 
+dotnet_remove_unnecessary_suppression_exclusions = none
+dotnet_diagnostic.IDE0079.severity = warning
 
 dotnet_diagnostic.IDE0080.severity = error
-
 dotnet_diagnostic.IDE0081.severity = error
 dotnet_diagnostic.IDE0082.severity = error
 
 # IDE0083
-csharp_style_prefer_not_pattern = 
+csharp_style_prefer_not_pattern = true:error
 
 # IDE0084
-visual_basic_style_prefer_isnot_expression = 
+visual_basic_style_prefer_isnot_expression = true:error
 
 # IDE0090
-csharp_style_implicit_object_creation_when_type_is_apparent = 
+csharp_style_implicit_object_creation_when_type_is_apparent = true:error
 
 dotnet_diagnostic.IDE0100.severity = error
 dotnet_diagnostic.IDE0110.severity = error
 dotnet_diagnostic.IDE0120.severity = error
 dotnet_diagnostic.IDE0121.severity = error
+
+#########################################################################
 
 # IDE0130
 dotnet_style_namespace_match_folder = 
