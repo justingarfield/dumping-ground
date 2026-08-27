@@ -669,7 +669,35 @@ dotnet_style_prefer_collection_expression =
 dotnet_diagnostic.IDE0305.severity = error
 dotnet_diagnostic.IDE0320.severity = error
 dotnet_diagnostic.IDE0330.severity = error
-dotnet_diagnostic.IDE1005.severity = error
+
+# IDE0410
+csharp_style_prefer_labeled_jump_statements
+
+# IDE1005
+csharp_style_conditional_delegate_call
+
+dotnet_diagnostic.IDE1007.severity = error
+
+# IDE2000
+dotnet_style_allow_multiple_blank_lines_experimental
+
+# IDE2001
+csharp_style_allow_embedded_statements_on_same_line_experimental
+
+# IDE2002
+csharp_style_allow_blank_lines_between_consecutive_braces_experimental
+
+# IDE2003
+dotnet_style_allow_statement_immediately_after_block_experimental
+
+# IDE2004
+csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental
+
+# IDE2005
+csharp_style_allow_blank_line_after_token_in_conditional_expression_experimental = 
+
+# IDE2006
+csharp_style_allow_blank_line_after_token_in_arrow_expression_clause_experimental = 
 
 ### Miscellaneous rules
 dotnet_diagnostic.IDE0076.severity = error
