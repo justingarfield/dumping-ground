@@ -593,21 +593,22 @@ dotnet_diagnostic.IDE0110.severity = error
 dotnet_diagnostic.IDE0120.severity = error
 dotnet_diagnostic.IDE0121.severity = error
 
-#########################################################################
-
 # IDE0130
-dotnet_style_namespace_match_folder = 
+# See https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0130?view=visualstudio
+dotnet_style_namespace_match_folder = true:error
 
 # IDE0140
-visual_basic_style_prefer_simplified_object_creation = 
+visual_basic_style_prefer_simplified_object_creation = true:error
 
 # IDE0150
-csharp_style_prefer_null_check_over_type_check = 
+csharp_style_prefer_null_check_over_type_check = true:error
 
 # IDE0160
-csharp_style_namespace_declarations = 
+# IDE0161
+csharp_style_namespace_declarations = file_scoped:error
 
-dotnet_diagnostic.IDE0161.severity = error
+#########################################################################
+
 dotnet_diagnostic.IDE0170.severity = error
 dotnet_diagnostic.IDE0180.severity = error
 dotnet_diagnostic.IDE0200.severity = error
