@@ -635,51 +635,70 @@ dotnet_diagnostic.IDE0241.severity = error
 # IDE0250
 csharp_style_prefer_readonly_struct = true:error
 
-#########################################################################
-
 # IDE0251
-csharp_style_prefer_readonly_struct_member = 
+csharp_style_prefer_readonly_struct_member = true:error
 
 # IDE0260
-csharp_style_prefer_pattern_matching = 
-
-# IDE0270
-dotnet_style_coalesce_expression = 
+csharp_style_pattern_matching_over_as_with_null_check = true:error
 
 dotnet_diagnostic.IDE0280.severity = error
 
 # IDE0290
-csharp_style_prefer_primary_constructors = 
+csharp_style_prefer_primary_constructors = true:warning # not sure
 
 # IDE0300
-dotnet_style_prefer_collection_expression = 
+dotnet_style_prefer_collection_expression = true:warning # not sure
 
 # IDE0301
-dotnet_style_prefer_collection_expression = 
+dotnet_style_prefer_collection_expression = true:warning # not sure
 
 # IDE0302
-dotnet_style_prefer_collection_expression = 
+dotnet_style_prefer_collection_expression = true:error
 
 # IDE0303
-dotnet_style_prefer_collection_expression = 
+dotnet_style_prefer_collection_expression = true:error
 
 # IDE0304
-dotnet_style_prefer_collection_expression = 
+dotnet_style_prefer_collection_expression = true:warning # not sure
 
-dotnet_diagnostic.IDE0305.severity = error
-dotnet_diagnostic.IDE0320.severity = error
-dotnet_diagnostic.IDE0330.severity = error
+# IDE0305
+dotnet_style_prefer_collection_expression = true:error
+
+# IDE0306
+dotnet_style_prefer_collection_expression = true:error
+
+# IDE0320
+csharp_prefer_static_anonymous_function = true:error
+
+# IDE0330
+csharp_prefer_system_threading_lock = true:error
+
+# IDE0340
+csharp_style_prefer_unbound_generic_type_in_nameof = true:error
+
+# IDE0350
+csharp_style_prefer_implicitly_typed_lambda_expression = true:error
+
+# IDE0360
+csharp_style_prefer_simple_property_accessors = true:error
+
+dotnet_diagnostic.IDE0370.severity = error
+dotnet_diagnostic.IDE0380.severity = error
+dotnet_diagnostic.IDE0390.severity = error
+dotnet_diagnostic.IDE0391.severity = error
+
+#########################################################################
 
 # IDE0410
-csharp_style_prefer_labeled_jump_statements
+csharp_style_prefer_labeled_jump_statements = 
 
 # IDE1005
-csharp_style_conditional_delegate_call
+csharp_style_conditional_delegate_call = 
 
 dotnet_diagnostic.IDE1007.severity = error
 
 # IDE2000
-dotnet_style_allow_multiple_blank_lines_experimental
+dotnet_style_allow_multiple_blank_lines_experimental = 
 
 # IDE2001
 csharp_style_allow_embedded_statements_on_same_line_experimental
