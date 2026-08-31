@@ -721,12 +721,26 @@ dotnet_diagnostic.IDE0076.severity = error
 dotnet_diagnostic.IDE0077.severity = error
 dotnet_diagnostic.IDE3000.severity = error
 
-#########################################################################
-
 ### Formatting rules
-dotnet_diagnostic.IDE0055.severity = error
+# dotnet_diagnostic.IDE0055.severity = error
+
+# .NET formatting rules
+[*.{cs,vb}]
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = true # maybe? might want false here
+
+#  CSharp formatting rules:
+[*.cs]
+csharp_new_line_before_open_brace = methods, properties, control_blocks, types
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = true
 
 ### Naming rules
+# <investigate further>
 
 ## IDE-only rules
 dotnet_diagnostic.JSON001.severity = error
