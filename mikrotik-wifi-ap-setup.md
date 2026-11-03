@@ -1,5 +1,6 @@
 # SSID VLAN Tagging
 
+```terminal
 /interface wifi
 add name=wifi-guest2g interface=wifi1 ssid=119Guest security-name=guest-profile vlan-mode=access vlan-id=2
 add name=wifi-guest5g interface=wifi2 ssid=119Guest security-name=guest-profile vlan-mode=access vlan-id=2
@@ -25,3 +26,4 @@ add bridge=bridge interface=ether2
 add bridge=bridge interface=ether3
 add bridge=bridge interface=wifi-home  pvid=10 frame-types=admit-only-untagged-and-priority-tagged
 add bridge=bridge interface=wifi-guest pvid=20 frame-types=admit-only-untagged-and-priority-tagged   
+```
