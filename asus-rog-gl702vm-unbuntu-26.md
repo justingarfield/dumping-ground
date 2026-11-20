@@ -12,9 +12,15 @@
 
 ## Installing
 
-* Used drive encryption w/ passphrase, because fuck trying to get secureboot working with the HSM
+* Used drive encryption w/ passphrase, because fuck trying to get secureboot working with the TPM
 
 ## Post-install
+
+### Updates
+
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
 
 ### (Oh!) Snaps
 
