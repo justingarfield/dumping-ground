@@ -43,6 +43,8 @@ sudo apt-get update && sudo apt-get upgrade -y
   * `flatpak install flathub org.freedesktop.Platform//26.08`
   * `flatpak install flathub org.freedesktop.Sdk//26.08`
   * `flatpak install -y --user ~/Downloads/podman-desktop-1.31.0.flatpak`
+  * Install podman compose extension
+  * `alias docker=podman`
 * Install DropBox and login
 * Install Raspberry Pi Imager
 * Install BalenaEtcher
