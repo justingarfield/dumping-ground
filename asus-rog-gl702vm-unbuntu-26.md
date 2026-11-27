@@ -33,6 +33,10 @@ sudo apt-get update && sudo apt-get upgrade -y
 ### Non-Snaps
 
 * Setup TPM LUKs decrypt on-boot
+  * Had to disable CSM boot, then save and exit bios
+  * Then enable secure boot, save and exit bios
+  * Cleared all SecureBoot keys and vars, save and exit
+  * Could then install Ubuntu 26.04 and good to go with TPM decryption for LUKs volume(s)
   * `sudo apt install dracut tpm2-tools tpm2-tss`
   * `sudo dracut -f`
   * `sudo update-grub`
