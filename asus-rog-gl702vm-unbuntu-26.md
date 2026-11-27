@@ -31,6 +31,15 @@ sudo apt-get update && sudo apt-get upgrade -y
 * Install ONLYOFFICE
 
 ### Non-Snaps
+
+* Setup TPM LUKs decrypt on-boot
+  * `sudo apt install dracut tpm2-tools tpm2-tss`
+  * `sudo dracut -f`
+  * `sudo update-grub`
+  * `sudo lsinitramfs /boot/initrd.img-$(uname -r) | grep -Ei 'tpm|tss'`
+  * `lsblk` # find luks vol
+  * `sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=0+7 /dev/nvme0n1p3`
+  * 
 * Install Private Internet Access desktop client
   * Need to `sudo apt install -y libopeng10` first
 * Install `asusctl` https://github.com/OpenGamingCollective/asusctl
