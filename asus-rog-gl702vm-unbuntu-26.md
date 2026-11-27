@@ -48,3 +48,9 @@ sudo apt-get update && sudo apt-get upgrade -y
 * Install DropBox and login
 * Install Raspberry Pi Imager
 * Install BalenaEtcher
+
+## Useful commands
+
+* BIOS infos
+  * `cat /sys/class/dmi/id/bios_version`
+  * `sudo dmidecode -t bios`
